@@ -28,3 +28,5 @@ En bonus, en CI, on teste ce role et le container résultant avec molecule et In
 * [gitlab_docker](https://git.northamp.fr/northamp/ansible/roles/gitlab_docker)
 * [traefik-docker](https://git.northamp.fr/northamp/ansible/roles/traefik-docker)
 
+Pour tester Molecule, j'ai fait un mirroir du deuxième repo sur [gitlab.com](https://gitlab.com/alt4/traefik-docker) pour utiliser leur infra CI, n'ayant pas de capacité DinD sur la mienne.
+[Exemple de job d'exécution du playbook](https://gitlab.com/alt4/traefik-docker/-/jobs/1067150037)
